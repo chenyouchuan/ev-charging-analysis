@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+
+# Data files (too large for GitHub - use default dataset)
+*.csv
+*.xlsx
+*.xls
+*.json
+!detailed_ev_charging_stations.csv
+
+# Output files (generated paper)
+*.docx
+*.doc
+data_vis_charts/
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude/
